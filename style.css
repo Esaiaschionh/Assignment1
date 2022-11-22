@@ -1,0 +1,27 @@
+header{
+    background-color: black;
+    color: aliceblue;
+    text-align: center;
+    font-family: 'Julee', cursive;
+    font-size: 25px;
+}
+
+html{
+    background-color: black;
+}
+
+body{
+    color: darkmagenta; 
+}
+
+hp{
+    float: left;    
+    margin: 0 15px 0 0;
+}
+
+pic2{
+    float:right;
+    margin: 0 15px 0 0;
+}
+
+
