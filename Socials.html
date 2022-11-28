@@ -1,2 +1,104 @@
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<!DOCTYPE html>
+<html>
+    <link href="https://fonts.googleapis.com/css2?family=Julee&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Nerko+One&display=swap" rel="stylesheet">
+    <head>
+        <style>
+            p.one{
+                border-style: solid;
+                border-color: white;
+                border-bottom: 3px solid black;
+            }            
+            .sidenav {
+                height: 100%;
+                width: 0;
+                position: fixed;
+                z-index: 1;
+                top: 0;
+                left: 0;
+                background-color: #111;
+                overflow-x: hidden;
+                transition: 0.5s;
+                padding-top: 60px;
+            }
+            
+            .sidenav a {
+                padding: 8px 8px 8px 32px;
+                text-decoration: none;
+                font-size: 25px;
+                color: #818181;
+                display: block;
+                transition: 0.3s;
+            }
 
+            .sidenav a:hover {
+                color: #f1f1f1;
+            }
+
+            .sidenav .closebtn {
+                position: absolute;
+                top: 0;
+                right: 25px;
+                font-size: 36px;
+                margin-left: 50px;
+            }
+
+            @media screen and (max-height: 450px) {
+            .sidenav {padding-top: 15px;}
+            .sidenav a {font-size: 18px;}
+            }
+        </style>
+        <title>Why Don't We</title>
+        <link href="style2.css" rel="stylesheet" type="text/css"/>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        
+    </head>
+    
+    <div id="mySidenav" class="sidenav">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <a href="Band.html">Home</a>
+        <a href="About.html">About</a>
+        <a href="https://store.whydontwemusic.com/" target="_blank">Merch</a>
+        <a class ="active" href="#Socials">Socials</a>
+        <a href="Tour.html">Tours</a>
+    
+    </div>
+        <span style="font-size:40px;cursor:pointer" onclick="openNav()">&#9776; </span>
+    <script>
+      function openNav() {
+        document.getElementById("mySidenav").style.width = "250px";
+      }
+      
+      function closeNav() {
+        document.getElementById("mySidenav").style.width = "0";
+      }
+    </script>
+
+
+
+    <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+        
+    <script>
+        // Get the button
+        let mybutton = document.getElementById("myBtn");
+
+        // When the user scrolls down 20px from the top of the document, show the button
+        window.onscroll = function() {scrollFunction()};
+
+        function scrollFunction() {
+            if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+                mybutton.style.display = "block";
+            } else {
+                mybutton.style.display = "none";
+            }
+        }
+
+        // When the user clicks on the button, scroll to the top of the document
+        function topFunction() {
+            document.body.scrollTop = 0;
+            document.documentElement.scrollTop = 0;
+        }
+    </script>
+
+
+</html>    
