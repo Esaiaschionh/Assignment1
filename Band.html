@@ -4,45 +4,192 @@
     <head>
         <style>
             p.one{
-                border-style: outset;
+                border-style: solid;
                 border-color: white;
                 border-bottom: 3px solid black;
-
+            }            
+            .sidenav {
+                height: 100%;
+                width: 0;
+                position: fixed;
+                z-index: 1;
+                top: 0;
+                left: 0;
+                background-color: #111;
+                overflow-x: hidden;
+                transition: 0.5s;
+                padding-top: 60px;
             }
             
+            .sidenav a {
+                padding: 8px 8px 8px 32px;
+                text-decoration: none;
+                font-size: 25px;
+                color: #818181;
+                display: block;
+                transition: 0.3s;
+            }
+
+            .sidenav a:hover {
+                color: #f1f1f1;
+            }
+
+            .sidenav .closebtn {
+                position: absolute;
+                top: 0;
+                right: 25px;
+                font-size: 36px;
+                margin-left: 50px;
+            }
+
+            @media screen and (max-height: 450px) {
+            .sidenav {padding-top: 15px;}
+            .sidenav a {font-size: 18px;}
+            }
         </style>
         <title>Why Don't We</title>
         <link href="style.css" rel="stylesheet" type="text/css"/>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        
     </head>
-    <div id="heading">
-        <header>
-            <h1>WHY DON'T WE</h1>
-            <br>
-        </header>
+    
+    <div id="mySidenav" class="sidenav">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <a class="active" href="#Home">Home</a>
+        <a href="About.html">About</a>
+        <a href="https://store.whydontwemusic.com/" target="_blank">Merch</a>
+        <a href="Socials.html">Socials</a>
+        <a href="Tour.html">Tours</a>
+    
     </div>
-
+        <span style="font-size:40px;cursor:pointer" onclick="openNav()">&#9776; </span>
+    <script>
+      function openNav() {
+        document.getElementById("mySidenav").style.width = "250px";
+      }
+      
+      function closeNav() {
+        document.getElementById("mySidenav").style.width = "0";
+      }
+    </script>
+    
+    <header>
+        <h1>WHY DON'T WE</h1>
+        <p class="one"></p>
+    </header>
     <body>
-        <hp><img class="logo" src="pic1.webp" alt="logo" width="300"></hp>
-        <ok><h3><p>
-            <h2>Background Introduction</h2>
-            Why Don't we is a band that originated from Los Angeles.They were formed on 27th september 2016.<br>
+        <hp><img class="logo" src="pic1.webp" alt="logo" width="400"></hp>
+        <ok><h3><p>            
+            <h2><b>BRIEF INTRODUCTION</b></h2>
+            <b>
+            Why Don't we is a band that originated from Los Angeles.
+            They were formed on 27th september 2016.<br>
             Their band consist of 5 members:<br>
             Jonah Marais<br>
             Corbyn Besson<br>
             Daniel Seavey<br>
             Jack Avery<br>
             Zach Herron<br>
+            </b>
         </p></h3></ok>
-        <br><br><br><br><br><br><br><br><br><br><br><br><br><br>
-        <pic2><img class="logo" src="pic2.jpg" alt="logo" width="300"></pic2>
+        <br><br><br><br><br><br><br><br><br><br>
+        <pic2><img class="logo" src="pic2.jpg" alt="logo" width="400"></pic2>
         <text2><p>
-            <h3>RECENT ALBUM</h3>
+            <h2><b>RECENT ALBUM</b></h2>
+            <b>
             The Good Times and The Bad Ones<br>
-            <a href="https://www.youtube.com/watch?v=d7sFBOXn5T0&list=OLAK5uy_mpbD3IKidNOjfaYHaDODRc1eR4qmPJVq4">YouTube</a><br>
-            <a href="https://open.spotify.com/album/0cVSrL39wn0PkBm9PFf6G2?si=YHApJx_fQceXWtGjGhdIUg">Spotify</a><br>
-            <a href="https://music.apple.com/sg/album/the-good-times-and-the-bad-ones/1539259142">Apple Music</a><br>
-            <a href="https://www.amazon.com/dp/B08MX81W5Q?tag=linkfiregen&ie=UTF8&linkCode=as2&ascsubtag=120d3b5da353df9f7cb63732417a54cc&ref=dmm_acq_soc_sg_u_lfire_lp_x_120d3b5da353df9f7cb63732417a54cc">Amazon Music</a><br>
-
+            <i class="fa fa-youtube" style="font-size: 24px;color:red"></i>
+            <a href="https://www.youtube.com/watch?v=d7sFBOXn5T0&list=OLAK5uy_mpbD3IKidNOjfaYHaDODRc1eR4qmPJVq4" target="_blank">YouTube</a><br>
+            <i class="fa fa-spotify" style="font-size: 24px;color:limegreen"></i>
+            <a href="https://open.spotify.com/album/0cVSrL39wn0PkBm9PFf6G2?si=YHApJx_fQceXWtGjGhdIUg" target="_blank">Spotify</a><br>
+            <i class="fa fa-apple" style="font-size: 24px;color:black"></i>
+            <a href="https://music.apple.com/sg/album/the-good-times-and-the-bad-ones/1539259142" target="_blank">Apple music</a><br>
+            <i class="fa fa-amazon" style="font-size: 24px;color: black;"></i>    
+            <a href="https://www.amazon.com/dp/B08MX81W5Q?tag=linkfiregen&ie=UTF8&linkCode=as2&ascsubtag=120d3b5da353df9f7cb63732417a54cc&ref=dmm_acq_soc_sg_u_lfire_lp_x_120d3b5da353df9f7cb63732417a54cc" target="_blank">Amazon Music</a><br>
+            </b>
         </p></text2>      
+        <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+        <text3>
+            <hp><img class="logo" src="Pic3.png" alt="logo" width="400"></hp>
+            <ok>
+                <b><h2>POPULAR RELEASE</h2></b>
+                <b>How Do You Love Somebody</b><br>
+                <a href="https://www.youtube.com/watch?v=wb1wuNuyujk" target="_blank">
+                    <i class="fa fa-youtube" style="font-size: 24px;color:red"></i>
+                </a>
+                <a href="https://open.spotify.com/track/4j5gXarJqoiwh4ZIAqZcmh?si=b21a8fe0417e4ad1" target="_blank">
+                    <i class="fa fa-spotify" style="font-size: 24px;color:limegreen"></i>
+                </a>
+                <a href="https://music.apple.com/sg/album/how-do-you-love-somebody/1626336652?i=1626336665&at=1000lLcA&ct=LFV_4aab7a7d9b69cadb6bde9d6f025d59c8&itsct=catchall_p4&itscg=30440&ls=1" target="_blank">
+                    <i class="fa fa-apple" style="font-size: 24px;color:black"></i>
+                </a>
+                <a href="https://music.amazon.com/albums/B0B2GSS4JN?tag=linkfiregen&ie=UTF8&linkCode=as2&ascsubtag=e8ba0295bc63359450fdc8f0c62aaecf&ref=dmm_acq_soc_sg_u_lfire_lp_x_e8ba0295bc63359450fdc8f0c62aaecf" target="_blank">
+                    <i class="fa fa-amazon" style="font-size: 24px;color: black;"></i> 
+                </a>
+                <br><br>
+                <b>8 Letters</b><br>
+                <a href="https://www.youtube.com/watch?v=C3DlM19x4RQ" target="_blank">
+                    <i class="fa fa-youtube" style="font-size: 24px;color:red"></i>
+                </a>
+                <a href="https://open.spotify.com/track/4zRZAmBQP8vhNPf9i9opXt?si=ec6dd71bb2a1472c" target="_blank">
+                    <i class="fa fa-spotify" style="font-size: 24px;color:limegreen"></i>
+                </a>
+                <a href="https://music.apple.com/sg/album/8-letters/1423280409?i=1423281707" target="_blank">
+                    <i class="fa fa-apple" style="font-size: 24px;color:black"></i>
+                </a>
+                <a href="https://amazon.com/music/player/albums/B07G8M1CTX?marketplaceId=ATVPDKIKX0DER&musicTerritory=US&ref=dm_sh_VgEGdsIpQIX8aqukzzjTlNHWG&trackAsin=B07G8NH79N" target="_blank">
+                    <i class="fa fa-amazon" style="font-size: 24px;color: black;"></i> 
+                </a>
+                <br><br>
+                <b>Let Me Down Easy(Lie)</b><br>
+                <a href="https://www.youtube.com/watch?v=5qUfjqksDic" target="_blank">
+                    <i class="fa fa-youtube" style="font-size: 24px;color:red"></i>
+                </a>
+                <a href="https://open.spotify.com/track/4w9qnwPPJRWPOw6DHhNtIc?si=ecefa289dadb4ded" target="_blank">
+                    <i class="fa fa-spotify" style="font-size: 24px;color:limegreen"></i>
+                </a>
+                <a href="https://music.apple.com/sg/album/let-me-down-easy-lie/1618567767?i=1618567770&at=1000lLcA&ct=LFV_073e30abc8e5180ac558d773898a5a5a&itsct=catchall_p1&itscg=30440&ls=1" target="_blank">
+                    <i class="fa fa-apple" style="font-size: 24px;color:black"></i>
+                </a>
+                <br><br>
+                <b>Love Back</b><br>
+                <a href="https://www.youtube.com/watch?v=Oy8H4zUxWjg" target="_blank">
+                    <i class="fa fa-youtube" style="font-size: 24px;color:red"></i>
+                </a>
+                <a href="https://open.spotify.com/track/7weX6syqklVQocpVVmDNwI?si=bbb2b89af45a47eb" target="_blank">
+                    <i class="fa fa-spotify" style="font-size: 24px;color:limegreen"></i>
+                </a>
+                <a href="https://music.apple.com/sg/album/love-back-single/1587171750" target="_blank">
+                    <i class="fa fa-apple" style="font-size: 24px;color:black"></i>
+                </a>
+                <a href="https://www.amazon.com/dp/B09GYSJHVY?tag=linkfiregen&ie=UTF8&linkCode=as2&ascsubtag=969af713ee4a51f8e0e1f0d3d123df74&ref=dmm_acq_soc_sg_u_lfire_lp_x_969af713ee4a51f8e0e1f0d3d123df74" target="_blank">
+                    <i class="fa fa-amazon" style="font-size: 24px;color: black;"></i> 
+                </a>
+                <br><br>
+            </ok>
+        </text3>
+        <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+        
+        <script>
+            // Get the button
+            let mybutton = document.getElementById("myBtn");
+    
+            // When the user scrolls down 20px from the top of the document, show the button
+            window.onscroll = function() {scrollFunction()};
+    
+            function scrollFunction() {
+                if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+                    mybutton.style.display = "block";
+                } else {
+                    mybutton.style.display = "none";
+                }
+            }
+    
+            // When the user clicks on the button, scroll to the top of the document
+            function topFunction() {
+                document.body.scrollTop = 0;
+                document.documentElement.scrollTop = 0;
+            }
+        </script>
     </body>
 </html>
