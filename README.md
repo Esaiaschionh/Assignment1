@@ -74,9 +74,14 @@ If this section grows too long, you may want to split it off into a separate fil
 
 ### Media
 - The photos used in this site were obtained from:
-https://images.app.goo.gl/YLtxZgaMffyLgM5G8
-https://images.app.goo.gl/LLzkiv3Ge7wfHD5c7
-https://images.app.goo.gl/KuuDc3ApB5KWukbDA
+https://images.app.goo.gl/YLtxZgaMffyLgM5G8 - pic1
+https://images.app.goo.gl/LLzkiv3Ge7wfHD5c7 - pic2
+https://images.app.goo.gl/KuuDc3ApB5KWukbDA - pic3
+https://images.app.goo.gl/NeWbmwt7JTZp4dG68 - pic4
+https://images.app.goo.gl/VVecH1Y2RB5i3RYn6 - pic5
+https://images.app.goo.gl/BqNgHW46vntMRn816 - pic6
+https://images.app.goo.gl/KWPuTCu2pZgKRCKc9 - pic7
+https://images.app.goo.gl/oGZJFwHGzyqtWTVJ9 - pic8
 
 ### Acknowledgements
 
