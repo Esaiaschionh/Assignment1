@@ -1,17 +1,19 @@
 header{
     background-color: black;
-    color: aliceblue;
+    color: white;
     text-align: center;
     font-family: 'Julee', cursive;
     font-size: 25px;
 }
 
 html{
-    background-color: black;
+    background-color: white;
 }
 
+
 body{
-    color: darkmagenta; 
+    font-family: 'Patrick Hand', cursive;
+    padding: 50px
 }
 
 hp{
@@ -24,4 +26,18 @@ pic2{
     margin: 0 15px 0 0;
 }
 
+ok{
+    color: blueviolet; 
+    float: right
+    
+}
 
+text2{
+    color: darkorange;
+}
+
+a:link {
+    color: darkorange;
+    text-decoration: none;
+    background-color: transparent;
+}
