@@ -13,6 +13,7 @@ html{
 body{
     font-family: 'Patrick Hand', cursive;
     background-color: white;
+
 }
 
 hp{ 
@@ -54,6 +55,14 @@ a:link {
     padding-right: 3px;
 }
 
+nav{
+    font-size: 45px;
+    color: black;
+    text-align: center;
+}
+
+
+
 #myBtn {
     display: none; /* Hidden by default */
     position: fixed; /* Fixed/sticky position */
@@ -77,3 +86,4 @@ a:link {
 centre{
     text-align: center;
 }
+

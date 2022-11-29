@@ -25,13 +25,7 @@ pic2{
     margin: 0 15px 45px 0;
 }
     
-div {
-    color: blueviolet; 
-    width: 300px;
-    border: 1px solid black;
-    padding: 3px;
-    margin: 0 15px 45px 0;
-}
+
 
 ok{
     color: blueviolet; 
@@ -77,14 +71,20 @@ a:link {
 centre{
     text-align: center;
 }
-/*
-floatleft{
-    float: left;
-    margin: 0 15px 0 45px;
+
+.floatleft{
+    margin-left: 45px;
 }
 
-floatright{
-    float:right
-    margin 0 15px 0 45px;
+.floatright{
+    margin-right: 45px;
 }
-*/
+
+.super{
+    margin-right: 45px;
+    margin-left: 45px;
+}
+
+p{
+    line-height: 40px;
+}
