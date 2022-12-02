@@ -1,18 +1,16 @@
 header{
-    background-color: white;
-    color: black;
+    /*background-color: #ffffff;*/
+    color: white;
     text-align: center;
     font-family: 'Julee', cursive;
     font-size: 25px;
 }
 
-html{
-    background-color: white;
-}
+
 
 body{
     font-family: 'Patrick Hand', cursive;
-    background-color: white;
+    /*background-color: #ffffff;*/
 }
 
 hp{ 
@@ -30,7 +28,6 @@ div {
     width: 300px;
     border: 1px solid black;
     padding: 3px;
-    margin: 0 15px 45px 0;
 }
 
 ok{
@@ -62,8 +59,8 @@ a:link {
     z-index: 99; /* Make sure it does not overlap */
     border: none; /* Remove borders */
     outline: none; /* Remove outline */
-    background-color: black; /* Set a background color */
-    color: white; /* Text color */
+    background-color: white; /* Set a background color */
+    color: black; /* Text color */
     cursor: pointer; /* Add a mouse pointer on hover */
     padding: 15px; /* Some padding */
     border-radius: 10px; /* Rounded corners */
@@ -83,4 +80,10 @@ body {
     background-repeat: no-repeat;
     background-attachment: fixed;  	
     background-size: cover;
+}
+
+.Notours{
+    color: white;
+    text-align: center;
+
 }

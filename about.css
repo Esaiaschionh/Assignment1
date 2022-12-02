@@ -27,13 +27,15 @@ body{
     
 .ok{
     color: blueviolet;
-    margin: 0 15px 45px 450px;
+    margin: 0 15px 45px 0px;
+    /*
     width: 770px;
     height: 394px;
     border-width: 3px;
     border-style: solid;
     border-color: black;
     text-align: center;
+    */
 }
 
 
@@ -42,12 +44,14 @@ body{
     color: darkorange;
     float: left;
     margin: 0 15px 0 45px;
+    /*
     width: 600px;   
     height: 298px;
     text-align: center;
     border-width: 3px;
     border-style: solid;
     border-color: black;
+    */
 }
 
 a:link {
@@ -99,9 +103,7 @@ p{
     line-height: 40px;
 }
 
-b{
-    font-size: 20px;
-}
+
 
 .hs{ 
     float:left;
@@ -111,11 +113,13 @@ b{
 .op{
     
     color:navy;
-    margin: 394px 0 45px 450px;
+    margin: 0 0 45px 0;
+    /*
     width: 770px;   
     height: 394px;
     text-align: center;
     border-width: 3px;
     border-style: solid;
     border-color: black;
+    */
 }
