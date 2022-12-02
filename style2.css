@@ -16,37 +16,6 @@ body{
 
 }
 
-hp{ 
-    float: left;   
-    margin: 0 15px 0 45px;
-}
-
-pic2{
-    float:right;
-    margin: 0 15px 45px 0;
-}
-    
-div {
-    color: blueviolet; 
-    width: 300px;
-    border: 1px solid black;
-    padding: 3px;
-    margin: 0 15px 45px 0;
-}
-
-ok{
-    color: blueviolet; 
-    margin: 0 15px 45px 0;
-    width: 300px;
-   
-}
-
-text2{
-    color: darkorange;
-    float: left;
-    margin: 0 15px 0 45px;
-}
-
 a:link {
     color: darkorange;
     text-decoration: none;
@@ -83,7 +52,5 @@ nav{
     background-color: #555; /* Add a dark-grey background on hover */
 }
 
-centre{
-    text-align: center;
-}
+
 
